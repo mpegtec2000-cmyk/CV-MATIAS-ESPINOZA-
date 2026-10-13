@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Download, ArrowUpRight, ArrowRight, ShieldCheck, MapPin, Sparkles, Clock, CheckCircle2 } from "lucide-react";
+import { Download, ArrowUpRight, ArrowRight, ShieldCheck, MapPin, Sparkles, Clock, CheckCircle2, Globe } from "lucide-react";
 import { PERSONAL_INFO } from "@/data/portfolio-data";
 import { useEffect, useState } from "react";
 
@@ -76,6 +76,17 @@ export default function Hero() {
                 <MapPin className="w-3.5 h-3.5 text-zinc-500" />
                 <span>REGIÓN DE VALPARAÍSO</span>
               </div>
+
+              <a
+                href="https://www.vision-code.cl/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden lg:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white hover:bg-zinc-100 border border-zinc-200 text-xs font-mono text-zinc-700 hover:text-black transition-colors shadow-2xs group"
+              >
+                <Globe className="w-3.5 h-3.5 text-black" />
+                <span>VISION-CODE.CL</span>
+                <ArrowUpRight className="w-3 h-3 text-zinc-400 group-hover:text-black transition-colors" />
+              </a>
             </div>
 
             {/* Main Title & Subtitle */}

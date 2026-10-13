@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Send, MessageSquare, CheckCircle2, AlertCircle, Loader2, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, MapPin, Send, MessageSquare, CheckCircle2, AlertCircle, Loader2, ArrowUpRight, Globe } from "lucide-react";
 import { LinkedinIcon } from "@/components/Icons";
 import { PERSONAL_INFO } from "@/data/portfolio-data";
 
@@ -129,6 +129,27 @@ export default function ContactSection() {
                   </span>
                   <span className="text-sm font-bold text-zinc-950 group-hover:underline">
                     linkedin.com/in/matias-espinoza-logistica
+                  </span>
+                </div>
+                <ArrowUpRight className="w-4 h-4 text-zinc-400 group-hover:text-black transition-colors" />
+              </motion.a>
+
+              <motion.a
+                whileHover={{ x: 4 }}
+                href="https://www.vision-code.cl/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-zinc-200 hover:border-black transition-all shadow-xs group"
+              >
+                <div className="p-3 rounded-xl bg-zinc-100 border border-zinc-200 text-black group-hover:bg-black group-hover:text-white transition-colors">
+                  <Globe className="w-5 h-5" />
+                </div>
+                <div className="flex-1">
+                  <span className="text-[10px] uppercase font-bold tracking-wider text-zinc-500 block">
+                    Sitio Web Oficial & Soluciones
+                  </span>
+                  <span className="text-sm font-bold text-zinc-950 group-hover:underline">
+                    www.vision-code.cl
                   </span>
                 </div>
                 <ArrowUpRight className="w-4 h-4 text-zinc-400 group-hover:text-black transition-colors" />

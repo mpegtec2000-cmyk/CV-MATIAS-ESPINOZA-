@@ -78,9 +78,20 @@ export default function ProjectsShowcase() {
             </p>
           </div>
 
-          <div className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white border border-zinc-200 text-xs font-mono font-bold text-zinc-800 shadow-2xs self-start md:self-auto">
-            <Globe className="w-3.5 h-3.5 text-black" />
-            <span>6 CLIENTES EN PRODUCCIÓN • DESARROLLO AUTÓNOMO</span>
+          <div className="flex flex-wrap items-center gap-2 self-start md:self-auto">
+            <div className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white border border-zinc-200 text-xs font-mono font-bold text-zinc-800 shadow-2xs">
+              <Globe className="w-3.5 h-3.5 text-black" />
+              <span>6 CLIENTES EN PRODUCCIÓN</span>
+            </div>
+            <a
+              href="https://www.vision-code.cl/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-black hover:bg-zinc-800 text-white text-xs font-mono font-bold transition-all shadow-xs"
+            >
+              <span>vision-code.cl</span>
+              <ArrowUpRight className="w-3.5 h-3.5" />
+            </a>
           </div>
         </div>
 

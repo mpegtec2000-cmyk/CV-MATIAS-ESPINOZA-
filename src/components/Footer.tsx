@@ -91,6 +91,12 @@ export default function Footer() {
                     <span>Email Directo</span>
                   </a>
                 </li>
+                <li>
+                  <a href="https://www.vision-code.cl/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors flex items-center gap-1 font-bold text-zinc-950">
+                    <span>Vision Code (Oficial)</span>
+                    <ArrowUpRight className="w-3 h-3" />
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -107,7 +113,17 @@ export default function Footer() {
 
             <div className="text-left md:text-right text-[11px] font-mono text-zinc-500 space-y-1">
               <div>© 2026 Matías Patricio Espinoza Guerrero.</div>
-              <div>Todos los derechos reservados.</div>
+              <div>
+                Desarrollo y soluciones:{" "}
+                <a
+                  href="https://www.vision-code.cl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-zinc-900 underline hover:text-black"
+                >
+                  vision-code.cl
+                </a>
+              </div>
             </div>
           </div>
         </div>
